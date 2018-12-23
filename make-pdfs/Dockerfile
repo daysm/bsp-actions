@@ -12,5 +12,5 @@ RUN wget https://github.com/ChordPro/chordpro/releases/download/R0_95/Linux.comm
     && mv Linux.command.line.binary /usr/local/bin/chordpro \
     && chmod +x /usr/local/bin/chordpro
 
-COPY Makefile .
-COPY bahai-songs .
+COPY $GITHUB_WORKSPACE/Makefile .
+COPY $GITHUB_WORKSPACE/bahai-songs .
