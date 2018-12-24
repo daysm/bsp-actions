@@ -12,5 +12,5 @@ RUN wget https://github.com/ChordPro/chordpro/releases/download/R0_95/Linux.comm
     && mv Linux.command.line.binary /usr/local/bin/chordpro \
     && chmod +x /usr/local/bin/chordpro
 
-# ADD entrypoint.sh /entrypoint.sh
+ADD entrypoint.sh /entrypoint.sh
 # ENTRYPOINT ["/entrypoint.sh"]
