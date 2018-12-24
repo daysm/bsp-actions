@@ -13,4 +13,4 @@ RUN wget https://github.com/ChordPro/chordpro/releases/download/R0_95/Linux.comm
     && chmod +x /usr/local/bin/chordpro
 
 ADD entrypoint.sh /entrypoint.sh
-# ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT [ "sh", "-c", "echo $GITHUB_WORKSPACE" ]
