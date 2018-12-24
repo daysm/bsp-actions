@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 
-sh -c "ls $GITHUB_WORKSPACE"
+sh -c "echo THISISATEST"
