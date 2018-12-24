@@ -11,6 +11,3 @@ RUN wget https://github.com/ChordPro/chordpro/releases/download/R0_95/Linux.comm
     && gunzip Linux.command.line.binary.gz \
     && mv Linux.command.line.binary /usr/local/bin/chordpro \
     && chmod +x /usr/local/bin/chordpro
-
-COPY $GITHUB_WORKSPACE/Makefile .
-COPY $GITHUB_WORKSPACE/bahai-songs .
