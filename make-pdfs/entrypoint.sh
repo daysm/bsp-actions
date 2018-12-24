@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
 
-sh -c "echo THISBEATEST"
+sh -c "make"
+sh -c "make songbook"
