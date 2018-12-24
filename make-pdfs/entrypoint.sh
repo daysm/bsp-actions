@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 
-sh -c "echo THISISATEST"
+sh -c "echo THISBEATEST"
